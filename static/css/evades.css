@@ -1,0 +1,28 @@
+@import url("../../bootstrap/css/bootstrap.min.css");
+@import url("../../bootstrap-social-gh-pages/bootstrap-social.css");
+
+body {
+    background-image:url('../images/mur4-indexed.png');
+    /* background-color:#202020; */
+    color: #f9f9f9;
+}
+
+.evades_top_image {
+    margin-bottom:1em;
+}
+
+.hero-unit-evades {
+    background-color: #080808;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.spectacle {
+    background-color: #181818;
+    padding: 1em;
+    margin: 1em;
+    border:2px solid;
+    border-radius:25px;
+}
