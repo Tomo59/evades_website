@@ -1,11 +1,12 @@
 @import url("../../bootstrap/css/bootstrap.min.css");
-@import url("../../bootstrap-social-gh-pages/bootstrap-social.css");
+
 
 body {
     background-image:url('../images/mur4-indexed.png');
     /* background-color:#202020; */
     color: #f9f9f9;
 }
+
 
 .evades_top_image {
     margin-bottom:1em;
@@ -26,3 +27,4 @@ body {
     border:2px solid;
     border-radius:25px;
 }
+
