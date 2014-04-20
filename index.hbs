@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Les Évadés de la rue Barrow</title>
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="static/css/evades.css"  type="text/css"/>
+  </head>
+  <body>
+    <script type="text/x-handlebars" data-template-name='application'>
+      <div class="container">
+        <img class="img-polaroid" src="static/images/banniere_site_evades.jpg"></img>
+        <div class="clearfix"><br /></div>
+        <div class="navbar navbar-inverse">
+          <div class="navbar-inner">
+            <div class="container">
+              <ul class="nav">
+                <li>{{#link-to 'index'}}Prochains spectacles{{/link-to}}</li>
+                <li>{{#link-to 'about'}}About{{/link-to}}</li>
+                <li>{{#link-to 'contact'}}Contact{{/link-to}}</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        {{outlet}}
+
+        <hr/>
+        <div class="footer">
+          <a href="http://twitter.com/EvadesBarrow" class="btn btn-social-icon btn-twitter">
+            <i class="fa fa-twitter"></i>
+          </a>
+          <a href="http://facebook.com/EvadesBarrow" class="btn btn-social-icon btn-facebook">
+            <i class="fa fa-facebook"></i>
+          </a>
+          <div class="pull-right"><h4>&copy; 2014</h4></div>
+        </div>
+      </div>
+    </script>
+    <script type="text/x-handlebars" data-template-name='index'>
+        <div class="hero-unit hero-unit-evades">
+          <h2>Les prochains spectacles</h2>
+          <div class="spectacle">
+            <h3>28 avril 2014: Nancy</h3>
+            <p>Rendez-vous à Nancy au festival d'improvisation.</p>
+          </div>
+          <div class="spectacle">
+            <h3>23 mai 2014: Sonar(t)</h3>
+            <p>Spectacle à 20h au Sonar(t)</p>
+            <address>
+              <strong>Bar Le Sonar(t).</strong><br>
+              55 rue Jean-Baptiste Pigalle<br>
+              75009 Paris<br>
+            </address>
+          </div>
+        </div>
+    </script>
+    <script type="text/x-handlebars" data-template-name='about'>
+      <div class="hero-unit hero-unit-evades">
+        <h3>Les Évadés de la rue Barrow <small>Troupe d'improvistation théâtrale</small></h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tincidunt, massa vel elementum tempus, nibh ante rutrum odio, vel hendrerit dui risus feugiat justo. Sed varius, urna sit amet suscipit pretium, ante nunc pretium est, vel pharetra dui leo non velit. Donec sit amet porta urna. Nunc porttitor, orci porta scelerisque semper, massa tortor vestibulum lectus, a eleifend lorem enim vel purus. In congue mauris quis tristique dictum. Donec sed leo ac neque blandit volutpat. Vivamus fringilla feugiat tempor. Cras sit amet nunc nec mauris lacinia ornare eget at urna. Ut sed turpis in odio consectetur fringilla. </p>
+      </div>    
+    </script>
+    <script type="text/x-handlebars" data-template-name='contact'>
+      <div class="hero-unit hero-unit-evades">
+        <h2>Nous envoyer un mail</h2>
+        <p>N'hésitez pas à nous envoyer un mail à <a href="mailto:contact@ruebarrow.fr">contact@ruebarrow.fr</a><br /><br /></p>
+
+        <h2>Nous rencontrer en vrai</h2>
+        <p>Vous pouvez nous rencontrer après un spectacle. Nous sommes toujours contents de discuter.<br /><br /></p>
+
+        <h2>Recrutement</h2>
+        <p>Nous sommes toujours à la recherche de nouveaux membres. Si vous avez déjà fait de l'impro et que l'aventure vous tente, n'hésitez pas à nous envoyer un mail. Nous sommes aussi à la recherche <strong>de musiciens</strong>.<br /><br /></p>
+      </div>
+    </script>
+
+    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/handlebars.js/1.3.0/handlebars.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/ember.js/1.5.0/ember.min.js"></script>
+    <script src="static/javascript/app.js"></script>
+    <script src="bootstrap/js/bootstrap.js"></script>
+
+  </body>
+</html>
