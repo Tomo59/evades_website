@@ -42,23 +42,13 @@
           <h2>Les prochains spectacles</h2>
           {{#each}}
             <div class="spectacle">
-              <h3><b>{{#link-to 'spectacle' this}}{{title}}{{/link-to}}</b></h3>
+              <h3><b>{{title}}</b></h3>
               <h3>{{date}} : {{place}}</h3>
               <p>{{message}}</p>
             </div>            
           {{/each}}
         </div>
     </script>
-    <script type="text/x-handlebars" data-template-name='spectacle'>
-        <div class="hero-unit hero-unit-evades">
-          <h2>{{title}}</h2>
-            <div class="spectacle">
-              <h3>{{date}} : {{place}}</h3>
-              <p>{{message}}</p>
-            </div>   
-          {{#link-to 'index' classNames="btn btn-primary"}}Retour{{/link-to}}         
-        </div>
-    </script>    
     <script type="text/x-handlebars" data-template-name='about'>
       <div class="hero-unit hero-unit-evades">
         <h3>Les Évadés de la rue Barrow <small>Troupe d'improvistation théâtrale</small></h3>

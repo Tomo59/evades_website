@@ -52,8 +52,3 @@ App.IndexRoute = Ember.Route.extend({
   }
 });
 
-App.SpectacleRoute = Ember.Route.extend({
-  model: function(params) {
-    return App.Spectacle.FIXTURES.findBy('date',params.date);
-  }
-});
