@@ -11,7 +11,7 @@ App.Router.map(function() {
 
 App.SpectacleAdapter = DS.RESTAdapter.extend({
   namespace: 'api/v1',
-  host: 'http://localhost:3000'
+  host: 'http://infinite-hamlet-5547.herokuapp.com'
 });
 
 App.Spectacle = DS.Model.extend({
