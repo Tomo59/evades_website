@@ -7,6 +7,9 @@ body {
     color: #f9f9f9;
 }
 
+.body-evades {
+    max-width: 953px;
+}
 
 .evades_top_image {
     margin-bottom:1em;
