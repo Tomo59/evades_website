@@ -9,29 +9,28 @@
   <body>
     <script type="text/x-handlebars" data-template-name='application'>
       <div class="container">
-        <img class="img-polaroid" src="static/images/banniere_site_evades.jpg"></img>
+        <img class="img-thumbnail" src="static/images/banniere_site_evades.jpg"></img>
         <div class="clearfix"><br /></div>
-        <div class="navbar navbar-inverse">
-          <div class="navbar-inner">
-            <div class="container">
-              <ul class="nav">
-                {{#link-to 'index' tagName='li'}}<a>Prochains spectacles</a>{{/link-to}}
-                {{#link-to 'press' tagName='li'}}<a>La presse en parle</a>{{/link-to}}
-                {{#link-to 'about' tagName='li'}}<a>À propos</a>{{/link-to}}
-                {{#link-to 'contact' tagName='li'}}<a>Contact</a>{{/link-to}}
-              </ul>
-            </div>
+        <div class="collapse navbar-collapse navbar-inverse">
+          <div class="container">
+            <ul class="nav navbar-nav">
+              {{#link-to 'index' tagName='li'}}<a>Prochains spectacles</a>{{/link-to}}
+              {{#link-to 'press' tagName='li'}}<a>La presse en parle</a>{{/link-to}}
+              {{#link-to 'about' tagName='li'}}<a>À propos</a>{{/link-to}}
+              {{#link-to 'contact' tagName='li'}}<a>Contact</a>{{/link-to}}
+            </ul>
           </div>
         </div>
+        <div class="clearfix"><br /></div>
 
         {{outlet}}
 
         <hr/>
         <div class="footer">
-          <a href="http://twitter.com/EvadesBarrow" class="btn btn-social-icon btn-twitter">
+          <a href="http://twitter.com/EvadesBarrow" class="btn btn-default btn-social-icon btn-twitter">
             <i class="fa fa-twitter"></i>
           </a>
-          <a href="http://facebook.com/EvadesBarrow" class="btn btn-social-icon btn-facebook">
+          <a href="http://facebook.com/EvadesBarrow" class="btn btn-default btn-social-icon btn-facebook">
             <i class="fa fa-facebook"></i>
           </a>
           <div class="pull-right"><h4>Oserez-vous devenir leur complice ? &nbsp;&nbsp;&copy; 2014</h4></div>
@@ -63,7 +62,7 @@
         <h2>La presse en parle</h2>
         <div class="spectacle">
           <h3>La semaine de l'impro à Nancy (28 avril 2014)</h3>
-          <img class="img-polaroid" src="static/images/press/nancy.jpg"></img>
+          <img class="img-thumbnail" src="static/images/press/nancy.jpg"></img>
           <p><i>L'est Républicain du 28 avril 2014</i></p>
         </div>
         <div class="spectacle">
@@ -88,7 +87,7 @@
           Chacun d'entre eux a sa spécialité : Jean-Pierre le Repaire, Justine la Guillotine, Marion l'Extorsion, George le Coupe-gorge, Ivan le Fou du volant, Suzanne la Pyromane, Jean-Paul la Boussole, Lise l'Indécise, Yvonne le Trombone, Emile le Viril, Arthur l'Imposture et Gaëtan le Manipulant.</p>
         <br />
         <h4>Le Spectacle</h4>
-        <img class="img-polaroid pull-right poster-evades" src="static/images/affiche20132014.jpg"></img>
+        <img class="img-thumbnail pull-right poster-evades" src="static/images/affiche20132014.jpg"></img>
         <p>Le principe est simple : à son entrée dans la salle, chaque membre du public griffonne sur un papier le mot qu'il souhaite transmettre aux Évadés. Puis, à chaque improvisation, le présentateur tire au sort un de ces mots qui devient alors l'indice d'une enquête, l'ordre d'une mission, l'argument d'une plaidoirie !<br />
           Chacun des 5 joueurs présente un court extrait de ce que lui inspire ce mot. La personne du public ayant donné l'indice choisit ensuite l'extrait qu'elle veut voir développer par l'ensemble des 5 joueurs. Et hop ! La voilà embarquée dans des univers tous plus originaux les uns que les autres ! Gardes à vue, recrutement pour une mission impossible, procès : la vie de bandits, avec les Évadés de la rue Barrow, c'est du grand spectacle !<br />
           Chaque spectacle a son identité propre et raconte un épisode de la vie des Évadés entre les improvisations.<br />
