@@ -15,9 +15,10 @@
           <div class="container">
             <ul class="nav navbar-nav">
               {{#link-to 'index' tagName='li'}}<a href="#">Prochains spectacles</a>{{/link-to}}
-              {{#link-to 'press' tagName='li'}}<a href="#">La presse en parle</a>{{/link-to}}
               {{#link-to 'about' tagName='li'}}<a href="#">À propos</a>{{/link-to}}
+              {{#link-to 'videos' tagName='li'}}<a href="#">Vidéos</a>{{/link-to}}
               {{#link-to 'contact' tagName='li'}}<a href="#">Contact</a>{{/link-to}}
+              {{#link-to 'accomplices' tagName='li'}}<a href="#">Nos complices</a>{{/link-to}}
             </ul>
           </div>
         </div>
@@ -66,22 +67,6 @@
         </div>
     </script>
 
-    <script type="text/x-handlebars" data-template-name='press'>
-      <div class="hero-unit hero-unit-evades">
-        <h2>La presse en parle</h2>
-        <div class="spectacle">
-          <h3>La semaine de l'impro à Nancy (29 avril 2014)</h3>
-          <img class="img-thumbnail" src="static/images/press/nancy.jpg"></img>
-          <p><i>L'est Républicain du 30 avril 2014</i></p>
-        </div>
-        <div class="spectacle">
-          <h3>Spectacle à Cabourg (29 octobre 2011)</h3>
-          <img class="img-thumbnail" src="static/images/press/Cabourg_1er_nov_2011.jpg"></img>
-          <p><i>Le Pays d'Auge du 1er novembre 2011</i></p>
-        </div>
-      </div>
-    </script>
-
     <script type="text/x-handlebars" data-template-name='about'>
       <div class="hero-unit hero-unit-evades">
         <h3>Les Évadés de la rue Barrow <small>Troupe d'improvistation théâtrale</small></h3>
@@ -103,6 +88,28 @@
       </div>
     </script>
 
+    <script type="text/x-handlebars" data-template-name='videos'>
+      <div class="hero-unit hero-unit-evades">
+        <h2>Nos vidéos</h2>
+        <div class="spectacle ">
+          <iframe width="640" height="360" class="center-block" src="http://www.youtube.com/embed/-cgKuPfvmqE" frameborder="0" allowfullscreen></iframe>
+          <p style="text-align: center"><br />Faites tourner l'info : le rap des Évadés</p>
+        </div>
+        <div class="spectacle">
+          <iframe width="640" height="360" class="center-block" src="http://www.youtube.com/embed/PF1d7DObdEM" frameborder="0" allowfullscreen></iframe>
+          <p style="text-align: center"><br />Les Évadés à Nancy</p>
+        </div>
+        <div class="spectacle">
+          <iframe width="640" height="360" class="center-block" src="http://www.youtube.com/embed/e7DqAgKIcrA" frameborder="0" allowfullscreen></iframe>
+          <p style="text-align: center"><br />Les Évadés à Steenwerck</p>
+        </div>
+        <div class="spectacle">
+          <iframe width="640" height="360" class="center-block" src="http://www.youtube.com/embed/52IBjRJci4w" frameborder="0" allowfullscreen></iframe>
+          <p style="text-align: center"><br />Le teaser des Évadés 2013</p>
+        </div>
+      </div>
+    </script>
+
     <script type="text/x-handlebars" data-template-name='contact'>
       <div class="hero-unit hero-unit-evades">
         <h2>Nous envoyer un mail</h2>
@@ -113,6 +120,33 @@
 
         <h2>Recrutement</h2>
         <p>Nous sommes toujours à la recherche de nouveaux membres. Si vous avez déjà fait de l'impro et que l'aventure vous tente, n'hésitez pas à nous envoyer un mail. Nous sommes aussi à la recherche <strong>de musiciens</strong>.<br /><br /></p>
+      </div>
+    </script>
+
+    <script type="text/x-handlebars" data-template-name='accomplices'>
+      <div class="hero-unit hero-unit-evades">
+        <h2>Les lieux</h2>
+        <ul>
+          <li><a target="_blank" href="http://www.le-sonart.com">Le Sonar(t) (à Paris)</a></li>
+          <li><a target="_blank" href="http://www.latelier44.org">L'Atelier 44 (à Avignon)</a></li>
+          <li><a target="_blank" href="http://www.leclouduspectacle.com">Le Clou du Spectacle (à Nancy)</a></li>
+          <li><a target="_blank" href="http://www.musee-steenwerck.com">Le musée de la vie rurale (à Steenwerck)</a></li>
+        </ul>
+
+        <h2>Les personnes</h2>
+        <ul>
+          <li><a target="_blank" href="http://www.smoking-sofa.com">Smoking Sofa</a></li>
+          <li><a target="_blank" href="http://atelier-oz.fr">L'Atelier Oz</a></li>
+          <li><a target="_blank" href="http://about.me/jmguillaume">JM</a></li>
+        </ul>
+
+        <h2>Les événements</h2>
+        <ul>
+          <li><a target="_blank" href="http://www.avignonleoff.com">Avignon le Off</a></li>
+          <li><a target="_blank" href="http://improfestival.jimdo.com">La semaine de l'impro (à Nancy)</a></li>
+          <li><a target="_blank" href="http://www.leverderideau.free.fr/leverderideau">Le festival du lever de rideau (à Cabourg)</a></li>
+          <li><a target="_blank" href="http://assos.utc.fr/festupic">Le festupic (à Compiègne)</a></li>
+        </ul>
       </div>
     </script>
 
