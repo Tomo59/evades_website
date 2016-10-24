@@ -18,7 +18,7 @@
             <ul class="nav navbar-nav">
               {{#link-to 'index' tagName='li'}}<a href="#">Actualités</a>{{/link-to}}
               {{#link-to 'about' tagName='li'}}<a href="#">À propos</a>{{/link-to}}
-              {{#link-to 'escapees' tagName='li'}}<a href="#">Spectacles</a>{{/link-to}}
+              {{#link-to 'shows' tagName='li'}}<a href="#">Spectacles</a>{{/link-to}}
               {{#link-to 'escapees' tagName='li'}}<a href="#">Les Évadés</a>{{/link-to}}
               {{#link-to 'videos' tagName='li'}}<a href="#">Vidéos</a>{{/link-to}}
               {{#link-to 'contact' tagName='li'}}<a href="#">Contact</a>{{/link-to}}
@@ -91,25 +91,12 @@ Mise en scène : Pauline Calmé<br />
         </div>
     </script>
 
-    <script type="text/x-handlebars" data-template-name='about'>
+    <script type="text/x-handlebars" data-template-name='shows'>
       <div class="hero-unit hero-unit-evades">
-        <h2>Les Évadés de la rue Barrow <small>Troupe d'improvistation théâtrale</small></h2>
-        <br />
-        <p class="pull-right"><a href="static/pdf/dossier_presse_evades_barrow_2014.pdf">Télécharger notre dossier de presse<span class="glyphicon glyphicon-book"></a></span></p>
-        <br />
-        <h3>La Troupe</h3>
-        <p>« Échappés » d'un cours d'improvisation théâtrale à Télécom Paris, rue Barrault, dix élèves décident en 2010 de fonder leur propre troupe d'improvisation : Les Evadés de la Rue Barrow.</p>  
-        S'inspirant du Cercle des Menteurs et des Flibustiers de l'Imaginaire, ils créent un format cabaret, où les comédiens improvisent des extraits d'histoires qu'ils déroulent ensuite à partir de l'extrait choisi par le public. Des contraintes viennent alimenter le jeu, et colorer les différentes improvisations.</p>
-        Entre 2010 et 2015, ce format est joué à de nombreuses reprises dans des bars et des festivals, et l'univers bien particulier des Evadés invite les spectateurs à devenir les complices de toutes leurs tentatives d'échapper à la police, et s'évader avec eux.</p> 
-        Le renouvellement progressif des membres de la troupe pousse peu à peu celle-ci à repenser la ligne directrice de leurs improvisations, et réfléchir à d'autres champs de création.<br /> 
-        En 2015, ils créent un nouveau format, L’Évasion. Ils s'engagent alors dans une exploration de l'instant présent, cherchant l'inspiration dans la réalité des corps et de l'environnement dans lequel ils jouent, et ouvrant une réflexion permanente quant à la place et l'impact du comédien qui se trouve derrière le personnage.<br />
-        Des ateliers sont mis en place, comme des lieux de recherche et de rencontre où les membres de la troupe partagent avec d'autres improvisateurs le goût de l'expérimentation, de la poésie et de la scène.</p>
-        Actuellement, deux formats sont au travail : Evasion et Cavale.</p>
-        <br />
-        <h3>Les Spectacles</h3>
+        <h2>Les Spectacles</h2>
         <br />
         <br />
-        <h4>Cavale</h4>
+        <h3>Cavale</h3>
         <img class="img-thumbnail pull-right poster-evades" src="static/images/affiche20132014_small.jpg"></img>
         <p>Spectacle entièrement improvisé, où la réalité de l'instant vous emmène dans les contrées enfouies de votre imaginaire.<br />
         Les Évadés sont en cavale.
@@ -118,9 +105,26 @@ Mise en scène : Pauline Calmé<br />
         A vous, alors, de choisir celui que vous souhaitez voir se prolonger...
         Émotion, tension, évasion... Oserez-vous être leur complice ?</p>
         <br />
-        <h4>Évasion</h4>
+        <h3>Évasion</h3>
         <p>Evasion est un spectacle théâtral entièrement improvisé, qui met en scène entre 5 et 6 comédiens et un musicien, sur une durée de 1h30.
         Prêts à tout pour s'évader, ces derniers s'inspirent des objets apportés par le public, du mouvement de leurs corps et de la matière et l'architecture même du théâtre, pour faire naître des histoires, des univers, des images et des émotions.</p>
+      </div>
+    </script>
+
+    <script type="text/x-handlebars" data-template-name='about'>
+      <div class="hero-unit hero-unit-evades">
+        <h2>Les Évadés de la rue Barrow <small>Troupe d'improvistation théâtrale</small></h2>
+        <br />
+        <p class="pull-right"><a href="static/pdf/dossier_presse_evades_barrow_2014.pdf">Télécharger notre dossier de presse<span class="glyphicon glyphicon-book"></a></span></p>
+        <div class="clearfix"><br /></div>
+        <br />
+        <p>« Échappés » d'un cours d'improvisation théâtrale à Télécom Paris, rue Barrault, dix élèves décident en 2010 de fonder leur propre troupe d'improvisation : Les Evadés de la Rue Barrow.</p>  
+        S'inspirant du Cercle des Menteurs et des Flibustiers de l'Imaginaire, ils créent un format cabaret, où les comédiens improvisent des extraits d'histoires qu'ils déroulent ensuite à partir de l'extrait choisi par le public. Des contraintes viennent alimenter le jeu, et colorer les différentes improvisations.</p>
+        Entre 2010 et 2015, ce format est joué à de nombreuses reprises dans des bars et des festivals, et l'univers bien particulier des Evadés invite les spectateurs à devenir les complices de toutes leurs tentatives d'échapper à la police, et s'évader avec eux.</p> 
+        Le renouvellement progressif des membres de la troupe pousse peu à peu celle-ci à repenser la ligne directrice de leurs improvisations, et réfléchir à d'autres champs de création.<br /> 
+        En 2015, ils créent un nouveau format, L’Évasion. Ils s'engagent alors dans une exploration de l'instant présent, cherchant l'inspiration dans la réalité des corps et de l'environnement dans lequel ils jouent, et ouvrant une réflexion permanente quant à la place et l'impact du comédien qui se trouve derrière le personnage.<br />
+        Des ateliers sont mis en place, comme des lieux de recherche et de rencontre où les membres de la troupe partagent avec d'autres improvisateurs le goût de l'expérimentation, de la poésie et de la scène.</p>
+        Actuellement, deux formats sont au travail : Evasion et Cavale.</p>
       </div>
     </script>
 

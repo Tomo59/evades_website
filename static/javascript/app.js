@@ -4,6 +4,7 @@ App = Ember.Application.create({
 });
 
 App.Router.map(function() {
+  this.route('shows', { path: '/spectacles' });
   this.route('escapees', { path: '/evades' });
   this.route('videos');
   this.route('accomplices', { path: '/complices' });
