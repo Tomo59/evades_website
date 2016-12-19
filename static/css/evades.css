@@ -17,6 +17,9 @@ body {
 
 .hero-unit-evades {
     background-color: #080808;
+}
+
+.text-with-margin {
     padding-top: 30px;
     padding-bottom: 30px;
     padding-left: 60px;
