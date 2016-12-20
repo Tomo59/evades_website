@@ -22,15 +22,26 @@ body {
 .text-with-margin {
     padding-top: 30px;
     padding-bottom: 30px;
-    padding-left: 60px;
+    padding-left: 200px;
     padding-right: 60px;
+    text-align: justify;
+}
+
+.text-with-small-margin {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
     text-align: justify;
 }
 
 .spectacle {
     background-color: #181818;
-    padding: 1em;
-    margin: 1em;
+    padding: 2em;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-top: 1em;
+    margin-bottom: 3em;
     border:2px solid;
     border-radius:25px;
 }
